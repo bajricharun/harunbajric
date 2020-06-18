@@ -1,0 +1,8 @@
+.container-fluid {
+  height: max-content;
+  margin-top: 70px;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 2px 2px #00000099;
+}
