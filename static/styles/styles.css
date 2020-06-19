@@ -69,7 +69,10 @@ span {
 @media only screen and (max-width: 700px) {
   .flex-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
+    -webkit-box-orient: column !important;
+    -webkit-box-direction: column !important;
+    -ms-flex-direction: column !important;
   }
 
   .flex-row > div {
