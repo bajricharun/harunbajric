@@ -34,7 +34,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <img src="./static/media/signature_white.png" width="120" />
     <button
       class="navbar-toggler"
       type="button"
@@ -50,18 +50,13 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href="#"
-            >Home <span class="sr-only">(current)</span></a
-          >
+          <a class="nav-link" href="#about-me">About me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About me</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Contact</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
       <!-- <form class="form-inline my-2 my-lg-0">
@@ -76,13 +71,164 @@
       </form>-->
     </div>
   </nav>
-  <div class="container-fluid bg-light">
+  <div class="container-fluid">
     <div class="row">
       <div
-        class="box-shadow col-xl-8 col-md-8 col-sm-8 offset-md-2 offset-xl-2 offset-sm-2"
+        class="col-xl-12 col-md-12 box-shadow col-sm-12 bg-dark text-light"
+        id="about-me"
       >
-        Hello
+        <h2>About me</h2>
+      </div>
+      <div
+        class="MT col-xl-8 col-md-8 col-sm-8 offset-md-2 offset-sm-2 offset-xl-2 text-dark"
+      >
+        <p>
+          Hello, I'm Harun. Young PHP developer with one year of work
+          experience. I've been passionate about coding and computers since I
+          was a kid. This right here is my portofolio. Feel free to look around
+          :)
+        </p>
+        <p class="center">Technologies I'm familiar with</p>
+        <div
+          class="col-xl-8 col-md-8 col-sm-8 offset-md-2 offset-sm-2 offset-xl-2"
+        >
+          <ul class="list-group center">
+            <li class="list-group-item">
+              PHP & MYSQL <i class="fab fa-php"></i>
+            </li>
+            <li class="list-group-item">VueJS <i class="fab fa-vuejs"></i></li>
+            <li class="list-group-item">
+              Bootstrap 4 <i class="fab fa-bootstrap"></i>
+            </li>
+            <li class="list-group-item">
+              Linux for web administration & FTP servers
+              <i class="fab fa-linux"></i>
+            </li>
+            <li class="list-group-item">Krita</li>
+            <li class="list-group-item">
+              JavaScript <i class="fab fa-js"></i>
+            </li>
+            <li class="list-group-item">
+              Python <i class="fab fa-python"></i>
+            </li>
+            <li class="list-group-item">C++</li>
+          </ul>
+          <br />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col-xl-12 col-md-12 box-shadow col-sm-12 bg-dark text-light"
+        id="projects"
+      >
+        <h2>Projects</h2>
+      </div>
+      <div
+        class="col-xl-8 offset-xl-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2 MT"
+      >
+        <div class="flex-row">
+          <div class="flex-item bg-dark box-shadow">
+            <a href="https://code-tesanj.com"
+              ><img src="./static/media/ct_white.png" width="140"
+            /></a>
+          </div>
+          <div class="flex-item bg-dark box-shadow">
+            <img src="./static/media/tc_logo_light.png" width="140" />
+          </div>
+          <div class="flex-item bg-dark box-shadow">
+            <p class="mt">
+              <a href="https://covidistatistiku.netlify.app"
+                >Covidistatistiku</a
+              >
+              *defunct*
+            </p>
+          </div>
+          <div class="flex-item bg-dark box-shadow">
+            <p class="mt"><a href="www.dr-rozajac.com">Dr Rozajac</a></p>
+          </div>
+        </div>
+        <p class="text-dark">
+          You can see more at
+          <a href="https://github.com/bajricharun" class="text-dark"
+            ><i class="fab fa-github" style="font-size: x-large;"></i
+          ></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div
+        class="col-xl-12 col-md-12 box-shadow col-sm-12 bg-dark text-light"
+        id="contact"
+      >
+        <h2>Contact</h2>
+      </div>
+
+      <div
+        class="MT col-xl-8 col-md-8 col-sm-8 offset-md-2 offset-sm-2 offset-xl-2 text-dark"
+      >
+        <p>
+          If you like what you see, want to get in touch with me or to
+          collaborate, then fill out the form.
+        </p>
+        <form action="https://formspree.io/maydkjja" method="POST">
+          <div
+            class="form-group input-group col-xl-10 col-md-10 col-sm-10 offset-md-1 offset-xl-1 offset-sm-1"
+          >
+            <div class="input-group-prepend">
+              <span class="input-group-text bg-light text-dark">
+                <i class="fa fa-user"></i>
+              </span>
+            </div>
+            <input type="text" class="form-control" name="name" />
+          </div>
+          <div
+            class="form-group input-group col-xl-10 col-md-10 col-sm-10 offset-md-1 offset-xl-1 offset-sm-1"
+          >
+            <div class="input-group-prepend">
+              <span class="input-group-text bg-light text-dark">
+                <i class="fa fa-envelope"></i>
+              </span>
+            </div>
+            <input type="email" class="form-control" name="_replyto" />
+          </div>
+          <div
+            class="form-group input-group col-xl-10 col-md-10 col-sm-10 offset-md-1 offset-xl-1 offset-sm-1"
+          >
+            <textarea
+              class="form-control"
+              name="message"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" />
+        </form>
       </div>
     </div>
   </div>
+
+  <footer class="bg-dark center">
+    <div class="container-fluid">
+      <div class="row center">
+        <div class="col-xl-12 col-md-12 col-sm-12">
+          <div class="flex-rowed text-light center">
+            <a class="text-light" href="https://github.com/bajricharun"
+              ><i class="fab fa-github" style="font-size: xx-large;"></i
+            ></a>
+            <a class="text-light" href="https://twitter.com/HarunBajric3"
+              ><i class="fab fa-twitter" style="font-size: xx-large;"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://ba.linkedin.com/in/harun-bajrić-36aa55191"
+              ><i class="fab fa-linkedin" style="font-size: xx-large;"></i
+            ></a>
+            <a class='text-light' href="mailto:harunbajric@protonmail.com"><i class="fa fa-envelope" style="font-size: xx-large;"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class='center'> &copy; 2020 Copyright Harun Bajric</span>
+  </footer>
 </body>
