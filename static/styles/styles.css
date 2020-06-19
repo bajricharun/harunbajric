@@ -34,6 +34,10 @@
   flex-direction: row;
 }
 
+.flex-row > div {
+  margin: 2.5%;
+}
+
 .flex-rowed {
   display: flex;
   flex-direction: row;
@@ -43,13 +47,8 @@
   margin: 1.5%;
 }
 
-.flex-row > div {
-  margin: 2.5%;
-}
-
 .flex-item {
   border-radius: 4px;
-
   width: 145px;
   height: 145px;
 }
@@ -71,5 +70,9 @@ span {
   .flex-row {
     display: flex;
     flex-direction: column;
+  }
+
+  .flex-row > div {
+    margin: 0%;
   }
 }
