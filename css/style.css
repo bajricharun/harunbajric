@@ -399,7 +399,7 @@ video {
 .label-logo:after {
   font-family: "Semibold";
   font-size: 20px;
-  content: "simple nav";
+  content: "nav";
 }
 .label-logo:hover:after {
   content: "go to main";
@@ -407,7 +407,7 @@ video {
 }
 @media screen and (max-width: 767px) {
   .label-logo:hover:after {
-    content: "simple navbar";
+    content: "simple";
   }
 }
 .label-logo {
