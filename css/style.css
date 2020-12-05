@@ -402,7 +402,7 @@ video {
   content: "nav";
 }
 .label-logo:hover:after {
-  content: "go to main";
+  content: "simple";
   white-space: nowrap;
 }
 @media screen and (max-width: 767px) {
